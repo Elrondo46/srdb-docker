@@ -1,4 +1,4 @@
-# Search-Replace-DB in a Docker Container
+# SRDB-Docker
 
 [![Docker Stars](https://img.shields.io/docker/stars/foxylion/search-replace-db.svg?style=flat-square)](https://hub.docker.com/r/foxylion/search-replace-db/) [![Docker Pulls](https://img.shields.io/docker/pulls/foxylion/search-replace-db.svg?style=flat-square)](https://hub.docker.com/r/foxylion/search-replace-db/)
 
