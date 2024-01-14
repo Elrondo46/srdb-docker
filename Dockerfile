@@ -5,8 +5,8 @@ RUN docker-php-ext-install mysqli
 RUN curl -o srdb.zip -L https://github.com/interconnectit/Search-Replace-DB/archive/3.1.zip; \
     unzip srdb.zip; \
     rm srdb.zip; \
-    mv Search-Replace-DB-3.1/* .; \
-    rmdir Search-Replace-DB-3.1
+    mv Search-Replace-DB-4.1.2/* .; \
+    rmdir Search-Replace-DB-4.1.2
 RUN sed -i '/$this->response();/ i\
     $name = getenv("DB_NAME") ?: NULL;\
     $user = getenv("DB_USER") ?: NULL;\
